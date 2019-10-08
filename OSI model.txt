@@ -1,0 +1,51 @@
+//====================\\
+	OSI Model
+\\====================//  
+
+7. Application*	 	- Program and services
+6. Presentation* 	- file formats, compression
+5. Session*		- open, close and manage sessions between end-user application processes	
+4. Transport		- Ports, logical communication between application processes (e.g port 80 web server)
+3. Network		- Logical adressing, Routers
+2. Data Link+		- Physical adressing, Switches, NICs
+1. Physical+		- Bits, Media (copper, fiber, radio) NICs, Hubs
+
+
+============================================================================================================
+
+7. Application*	 	- HTTP, HTTPS, DNS, FTP, SMTP, Telnet, SSH, DHCP, SSL/TLS, Browsers (Firefox, Chrome)
+6. Presentation* 	- MIME
+5. Session*		- RTP, SOCKS	
+4. Transport		- TCP, UDP (non reliable but faster used for gaming etc) 
+3. Network		- IPv4, Ipv6, ICMP, ICMPv6, IPSec
+2. Data Link+		- Mac adressing (physical adress), Ethernet, Wifi, DSL, PPP
+1. Physical+		- 1 and 0 s
+
+============================================================================================================
+
+Basic web request & response
+
+============================================================================================================
+
+Request			              Socket (IP adress + port)
+				            Destination
+=======			              =======================
+
+--> yahoo.com --- DNS TRANSLATE ----> 98.138.219.231:80 (http) 
+
+
+Response	Socket
+========	==========================================
+mypc		10.116.34.165:23620 (random port) <--------
+
+============================================================================================================
+
+Private IP adresses - LAN
+
+============================================================================================================
+
+10.0.0.0 - Anything starting with a 10.
+172.16.0.0 - Anything starting with a 172.16 up to 172.31
+192.168.0.0 - anything starting with a 192.168
+
+
