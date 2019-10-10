@@ -13,3 +13,9 @@ Valuable information
 ### books 
 [Introduction to Networking by Charles Severance](http://do1.dr-chuck.net/net-intro/EN_us/net-intro.pdf)
 
+
+## Linux
+
+### Games
+[learn the command line](http://overthewire.org/wargames/)
+
